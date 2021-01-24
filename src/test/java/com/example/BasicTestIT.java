@@ -22,6 +22,16 @@ public class BasicTestIT extends BaseDriver {
         googleExampleThatSearchesFor("milk");
     }
 
+    @Test
+    public void searchForApple() {
+        googleExampleThatSearchesFor("apple");
+    }
+
+    @Test
+    public void searchForBanana() {
+        googleExampleThatSearchesFor("banana");
+    }
+
     private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString) {
         return driver -> driver.getTitle().toLowerCase().startsWith(searchString);
     }
