@@ -8,6 +8,7 @@
         <kava.version>1.8</kava.version>
         <selenium.version>3.4.0</selenium.version>
         <testng.version>7.1.0</testng.version>
+        <threads>1</threads>
     </properties>
 
     <modelVersion>4.0.0</modelVersion>
@@ -47,6 +48,25 @@
                 </configuration>
                 <version>3.8.1</version>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <parallel>methods</parallel>
+                    <threadCount>${threads}</threadCount>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 
