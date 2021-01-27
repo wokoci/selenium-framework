@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.example.BasicTestIT" time="15.339" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.example.BasicTestIT" time="20.725" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/wokoci/Documents/projects/Selenium Framework/target/surefire/surefirebooter1179375336409644648.jar /Users/wokoci/Documents/projects/Selenium Framework/target/surefire 2021-01-24T22-45-18_322-jvmRun1 surefire7994431334379593731tmp surefire_08105451651905621975tmp"/>
+    <property name="sun.java.command" value="/Users/wokoci/Documents/projects/Selenium Framework/target/surefire/surefirebooter7213495845985946194.jar /Users/wokoci/Documents/projects/Selenium Framework/target/surefire 2021-01-27T16-36-18_774-jvmRun1 surefire6156059704703160064tmp surefire_01444806525150437983tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/wokoci/Documents/projects/Selenium Framework/target/test-classes:/Users/wokoci/Documents/projects/Selenium Framework/target/Selenium-Framework-1.0-SNAPSHOT.jar:/Users/wokoci/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/wokoci/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/wokoci/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/wokoci/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/wokoci/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/wokoci/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-java/3.4.0/selenium-java-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.4.0/selenium-edge-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.4.0/selenium-firefox-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.4.0/selenium-ie-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.4.0/selenium-opera-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.4.0/selenium-safari-driver-3.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar:/Users/wokoci/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/wokoci/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/wokoci/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/wokoci/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/wokoci/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/wokoci/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/wokoci/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/wokoci/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.22/cssparser-0.9.22.jar:/Users/wokoci/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/wokoci/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar:/Users/wokoci/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wokoci/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.26/htmlunit-2.26.jar:/Users/wokoci/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.26/htmlunit-core-js-2.26.jar:/Users/wokoci/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.25/neko-htmlunit-2.25.jar:/Users/wokoci/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/wokoci/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/wokoci/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/jetty-io/9.4.1.v20170120/jetty-io-9.4.1.v20170120.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/jetty-util/9.4.1.v20170120/jetty-util-9.4.1.v20170120.jar:/Users/wokoci/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/wokoci/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/wokoci/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/wokoci/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.26/htmlunit-driver-2.26.jar:/Users/wokoci/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.3.v20170317/websocket-api-9.4.3.v20170317.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.3.v20170317/websocket-client-9.4.3.v20170317.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/jetty-client/9.4.3.v20170317/jetty-client-9.4.3.v20170317.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/jetty-http/9.4.3.v20170317/jetty-http-9.4.3.v20170317.jar:/Users/wokoci/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.3.v20170317/websocket-common-9.4.3.v20170317.jar:/Users/wokoci/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/wokoci/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/wokoci/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/wokoci/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/wokoci/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/wokoci/Documents/projects/Selenium Framework/target/surefire/surefirebooter1179375336409644648.jar"/>
+    <property name="surefire.real.class.path" value="/Users/wokoci/Documents/projects/Selenium Framework/target/surefire/surefirebooter7213495845985946194.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,7 +63,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="searchForApple" classname="com.example.BasicTestIT" time="7.803">
+  <testcase name="searchForApple" classname="com.example.BasicTestIT" time="14.748">
     <system-out><![CDATA[ 
 Current operating System: MAC OS X
 Current Architecture: x86_64
@@ -72,25 +72,25 @@ Current browser Selection: Firefox
 Page title is:Google
 Page title is :apple - Google Search
 ]]></system-out>
-    <system-err><![CDATA[1611528321994	geckodriver	INFO	Listening on 127.0.0.1:31911
-1611528322254	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c_/pctgspnn6mx5cnrds_sj2n680000gn/T/rust_mozprofilerguCR6"
+    <system-err><![CDATA[1611765383008	geckodriver	INFO	Listening on 127.0.0.1:3412
+1611765383375	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/c_/pctgspnn6mx5cnrds_sj2n680000gn/T/rust_mozprofile3lttmS"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1611528326303	Marionette	INFO	Listening on port 54631
-Jan 24, 2021 10:45:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1611765394606	Marionette	INFO	Listening on port 63424
+Jan 27, 2021 4:36:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchForBanana" classname="com.example.BasicTestIT" time="1.716">
+  <testcase name="searchForBanana" classname="com.example.BasicTestIT" time="1.262">
     <system-out><![CDATA[Page title is:Google
 Page title is :banana - Google Search
 ]]></system-out>
   </testcase>
-  <testcase name="searchForCheese" classname="com.example.BasicTestIT" time="1.801">
+  <testcase name="searchForCheese" classname="com.example.BasicTestIT" time="1.202">
     <system-out><![CDATA[Page title is:Google
 Page title is :cheese - Google Search
 ]]></system-out>
   </testcase>
-  <testcase name="searchForMilk" classname="com.example.BasicTestIT" time="1.994">
+  <testcase name="searchForMilk" classname="com.example.BasicTestIT" time="1.355">
     <system-out><![CDATA[Page title is:Google
 Page title is :milk - Google Search
 ]]></system-out>
