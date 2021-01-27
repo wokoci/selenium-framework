@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="31937" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:56 GMT">
+  <suite name="Surefire suite" duration-ms="13480" started-at="2021-01-24T22:45:20 GMT" finished-at="2021-01-24T22:45:34 GMT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="31937" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:56 GMT">
+    <test name="Surefire test" duration-ms="13480" started-at="2021-01-24T22:45:20 GMT" finished-at="2021-01-24T22:45:34 GMT">
       <class name="com.example.BasicTestIT">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="instantiateDriverObject" is-config="true" duration-ms="10" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:24 GMT">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="instantiateDriverObject" is-config="true" duration-ms="17" started-at="2021-01-24T22:45:20 GMT" finished-at="2021-01-24T22:45:20 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="searchForMilk()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForMilk" duration-ms="18086" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:42 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForMilk -->
-        <test-method status="PASS" signature="searchForCheese()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForCheese" duration-ms="20077" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:44 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForCheese -->
-        <test-method status="PASS" signature="searchForBanana()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForBanana" duration-ms="31207" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:55 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForBanana -->
-        <test-method status="PASS" signature="searchForApple()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForApple" duration-ms="18744" started-at="2021-01-24T22:21:24 GMT" finished-at="2021-01-24T22:21:42 GMT">
+        <test-method status="PASS" signature="searchForApple()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForApple" duration-ms="7770" started-at="2021-01-24T22:45:20 GMT" finished-at="2021-01-24T22:45:28 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForApple -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="4195" started-at="2021-01-24T22:21:42 GMT" finished-at="2021-01-24T22:21:46 GMT">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="66" started-at="2021-01-24T22:45:28 GMT" finished-at="2021-01-24T22:45:28 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="3540" started-at="2021-01-24T22:21:42 GMT" finished-at="2021-01-24T22:21:46 GMT">
+        <test-method status="PASS" signature="searchForBanana()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForBanana" duration-ms="1717" started-at="2021-01-24T22:45:28 GMT" finished-at="2021-01-24T22:45:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForBanana -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="12" started-at="2021-01-24T22:45:30 GMT" finished-at="2021-01-24T22:45:30 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="2208" started-at="2021-01-24T22:21:44 GMT" finished-at="2021-01-24T22:21:46 GMT">
+        <test-method status="PASS" signature="searchForCheese()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForCheese" duration-ms="1800" started-at="2021-01-24T22:45:30 GMT" finished-at="2021-01-24T22:45:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCheese -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="11" started-at="2021-01-24T22:45:32 GMT" finished-at="2021-01-24T22:45:32 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="693" started-at="2021-01-24T22:21:55 GMT" finished-at="2021-01-24T22:21:56 GMT">
+        <test-method status="PASS" signature="searchForMilk()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="searchForMilk" duration-ms="1994" started-at="2021-01-24T22:45:32 GMT" finished-at="2021-01-24T22:45:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMilk -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="clearCookies" is-config="true" duration-ms="56" started-at="2021-01-24T22:45:34 GMT" finished-at="2021-01-24T22:45:34 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObject()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="closeDriverObject" is-config="true" duration-ms="609" started-at="2021-01-24T22:21:56 GMT" finished-at="2021-01-24T22:21:56 GMT">
+        <test-method status="PASS" signature="closeDriverObject()[pri:0, instance:com.example.BasicTestIT@610694f1]" name="closeDriverObject" is-config="true" duration-ms="1120" started-at="2021-01-24T22:45:34 GMT" finished-at="2021-01-24T22:45:35 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObject -->
