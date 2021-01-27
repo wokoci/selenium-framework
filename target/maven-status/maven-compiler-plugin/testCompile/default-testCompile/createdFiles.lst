@@ -1,4 +1,8 @@
 com/example/config/BaseDriver$1.class
-com/example/BasicTestIT.class
+com/example/config/DriverType$1.class
 com/example/config/DriverFactory.class
+com/example/config/DriverSetUp.class
+com/example/config/DriverType$2.class
+com/example/BasicTestIT.class
+com/example/config/DriverType.class
 com/example/config/BaseDriver.class
